@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./image/cloudjpeg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin: 40px 0;
+}
+.map{
+    margin: 40px 0;
+}
+input{
+    padding: 5px  60px;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid  grey;
+}
+.nation{
+    margin: 10px 0;
+}
+.weather{
+   margin: 10px 0; 
+}
+.warmth{
+    margin: 10px 0;
+}
+.zone{
+    margin: 10px 0;
+}
+.place{
+    margin: 10px 0;
+}
